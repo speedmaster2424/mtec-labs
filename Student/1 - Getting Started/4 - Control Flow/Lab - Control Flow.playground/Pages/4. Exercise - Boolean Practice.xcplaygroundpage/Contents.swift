@@ -23,7 +23,7 @@ let temp = 82
 let isRaining = true
 let isSunny = true
 let isNiceWeather = (isSunny && temp >= 82) || !isRaining
-if isNiceWeather == true {
+if isNiceWeather {
     print ("I'm Going for a walk!")
 }
 /*:

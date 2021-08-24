@@ -15,7 +15,7 @@
  
  If `currentHR` is above the listed zones, print some kind of warning asking the user to slow down.
  */
-let currentHR = 128
+let currentHR = 70
 switch currentHR {
 case 100 ... 120:
     print ("You are in the Very Light zone. Activity in this zone helps with recover.")
