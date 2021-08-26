@@ -9,8 +9,12 @@ let storedUserName = "TheFittest11"
 let storedPassword = "a8H1LuK91"
 let enteredUserName = "thefittest11"
 let enteredPassword: String = "a8H1Luk9"
-
-
+//i refuse to agree to such a stupid idea of allowing someone to ignore case sensitivty on usernames even if this is an exersise that is such a bad idea considering that depending on the website or system if this exsisted you could have two users with the same username and that can break so many things in coding ive seen it before and ill see it again. i mean if you have this as such a thing it can teach someone even by accident that such a thing is a good idea when it isnt also for the sake of the exersize its litterly just putting .lowercase() after the variable which ive already done
+if storedUserName == enteredUserName && storedPassword == enteredPassword {
+    print ("You are now logged in")
+} else {
+    print ("Your username and/or password are incorrect please try again")
+}
 /*:
  Now that users can log in, they need to be able to search through a list of users to find their friends. This might normally be done by having the user enter a name, and then looping through all user names to see if a user name contains the search term entered. You'll learn about loops later, so for now you'll just work through one cycle of that. Imagine you are searching for a friend whose user name is StepChallenger. You enter "step" into a search bar and the app begins to search. When the app comes to the user name "stepchallenger," it checks to see if "StepChallenger" contains "step."
 
@@ -19,7 +23,9 @@ let enteredPassword: String = "a8H1Luk9"
 import Foundation
 let userName = "StepChallenger"
 let searchName = "step"
-
+if userName.lowercased().contains(searchName) {
+    print (userName)
+}
 
 /*:
  _Copyright © 2021 Apple Inc._
