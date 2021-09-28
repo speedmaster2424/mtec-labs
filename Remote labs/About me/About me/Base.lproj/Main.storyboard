@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kMp-Ml-kU6">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--likes and dislikes-->
+        <scene sceneID="KWL-Ac-ISb">
+            <objects>
+                <viewController id="jeG-qD-fNu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MjZ-0M-KOs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Likes and dislikes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hZS-Z0-oJ4">
+                                <rect key="frame" x="136" y="64" width="132.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="let-Mc-o3N">
+                                <rect key="frame" x="20" y="102.5" width="374" height="142.5"/>
+                                <string key="text">for likes we have my favorite foods being pizza, tacos, nachos favorite color Lime Green, Favorite books (i forgot the names) Favorite movie is same situation for dislikes its hard to say really i have my pet peeves but those arnt dislikes persay as with my own philosphy its hard for me to dislike really anything</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Vpq-4o-zrZ"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstItem="Vpq-4o-zrZ" firstAttribute="trailing" secondItem="let-Mc-o3N" secondAttribute="trailing" constant="20" id="3zd-Y7-tto"/>
+                            <constraint firstItem="hZS-Z0-oJ4" firstAttribute="top" secondItem="Vpq-4o-zrZ" secondAttribute="top" constant="20" id="9Ni-Gh-Hp8"/>
+                            <constraint firstItem="hZS-Z0-oJ4" firstAttribute="leading" secondItem="Vpq-4o-zrZ" secondAttribute="leading" constant="136" id="bNE-n3-LpF"/>
+                            <constraint firstItem="let-Mc-o3N" firstAttribute="top" secondItem="hZS-Z0-oJ4" secondAttribute="bottom" constant="17.5" id="erz-Et-qtz"/>
+                            <constraint firstItem="let-Mc-o3N" firstAttribute="leading" secondItem="Vpq-4o-zrZ" secondAttribute="leading" constant="20" id="fCa-zx-zJM"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="likes and dislikes" image="square" catalog="system" selectedImage="square.fill" id="fcV-5Z-Egt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wgM-O0-1f8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="937.68115942028987" y="111.83035714285714"/>
+        </scene>
+        <!--Stuff ive done-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="About_me" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stuff ive done" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mKl-D1-X9v">
+                                <rect key="frame" x="148" y="64" width="106" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ygP-Cg-jce">
+                                <rect key="frame" x="20" y="102" width="374" height="162.5"/>
+                                <string key="text">The sports ive done are pretty much any that you can name soccor, cup stacking, football, karate, basketball, esports etc beyond that Ive reached a point where I have consumed so much media that everything online starts to feel the same and it becomes rare to find something truely new or exciting. I have worked at mcdonalds, wendys, smiths, cornbellys, online ventures etc</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ygP-Cg-jce" secondAttribute="trailing" constant="20" id="1wU-wk-nor"/>
+                            <constraint firstItem="ygP-Cg-jce" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="MaU-Pt-bzF"/>
+                            <constraint firstItem="ygP-Cg-jce" firstAttribute="top" secondItem="mKl-D1-X9v" secondAttribute="bottom" constant="17.5" id="cFV-ye-8rN"/>
+                            <constraint firstItem="mKl-D1-X9v" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="efj-dc-uLy"/>
+                            <constraint firstItem="mKl-D1-X9v" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="148" id="tJ3-Sx-Yo8"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Stuff ive done" image="circle" catalog="system" selectedImage="circle.fill" id="fmh-Zs-BXI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="218.84057971014494" y="111.83035714285714"/>
+        </scene>
+        <!--Family-->
+        <scene sceneID="yj2-3S-aSw">
+            <objects>
+                <viewController id="Re3-mZ-SD8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5hn-9f-H7f">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Family" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fzt-KP-pZC">
+                                <rect key="frame" x="179" y="64" width="48.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UAp-ku-TQb">
+                                <rect key="frame" x="20" y="102.5" width="374" height="325"/>
+                                <mutableString key="text">starting off I am adopted meaning that i have the adoptive parents (both alive) then I have the birth parents (both alive as well) with the adoptive family have one sister who is also adopted from an entirely diffrent family on the birth side I have half brothers and sisters for both parents and no biological siblings that I know of the only half brother that i know of meeting is jayden which is the birth fathers side along with that I have the grandma and grandpa for adoptive dad (both dead) and the gma and gpa for mom (both alive) the only one i havent met is the grandpa for my adoptive dad on the birth side im not sure whos who beyond the one half brother but i know i have met biological grandparents of one biological parent</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Qnd-bO-kmG"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <constraints>
+                            <constraint firstItem="fzt-KP-pZC" firstAttribute="leading" secondItem="Qnd-bO-kmG" secondAttribute="leading" constant="179" id="Ky0-td-deH"/>
+                            <constraint firstItem="UAp-ku-TQb" firstAttribute="leading" secondItem="Qnd-bO-kmG" secondAttribute="leading" constant="20" id="PGU-5A-zxS"/>
+                            <constraint firstItem="UAp-ku-TQb" firstAttribute="top" secondItem="fzt-KP-pZC" secondAttribute="bottom" constant="17.5" id="csc-S5-ZYl"/>
+                            <constraint firstItem="fzt-KP-pZC" firstAttribute="top" secondItem="Qnd-bO-kmG" secondAttribute="top" constant="20" id="jVY-7g-5mJ"/>
+                            <constraint firstItem="Qnd-bO-kmG" firstAttribute="trailing" secondItem="UAp-ku-TQb" secondAttribute="trailing" constant="20" id="yTV-b2-DRr"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Family" image="triangle" catalog="system" selectedImage="triangle.fill" id="Ec5-XN-37Q"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v0y-2A-Qrq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1642.0289855072465" y="111.83035714285714"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="owp-Co-FaM">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="kMp-Ml-kU6" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="rBP-K7-2Uv">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="AI5-cc-hdb"/>
+                        <segue destination="jeG-qD-fNu" kind="relationship" relationship="viewControllers" id="Odz-me-giL"/>
+                        <segue destination="Re3-mZ-SD8" kind="relationship" relationship="viewControllers" id="oDR-kF-1Gw"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0b9-ao-aTK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="939" y="-637"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="circle" catalog="system" width="128" height="121"/>
+        <image name="circle.fill" catalog="system" width="128" height="121"/>
+        <image name="square" catalog="system" width="128" height="114"/>
+        <image name="square.fill" catalog="system" width="128" height="114"/>
+        <image name="triangle" catalog="system" width="128" height="112"/>
+        <image name="triangle.fill" catalog="system" width="128" height="112"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
