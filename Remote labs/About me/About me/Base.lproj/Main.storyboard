@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kMp-Ml-kU6">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kMp-Ml-kU6">
+    <device id="ipad12_9" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -13,17 +14,17 @@
             <objects>
                 <viewController id="jeG-qD-fNu" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MjZ-0M-KOs">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Likes and dislikes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hZS-Z0-oJ4">
-                                <rect key="frame" x="136" y="64" width="132.5" height="21"/>
+                                <rect key="frame" x="136" y="40" width="132.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="let-Mc-o3N">
-                                <rect key="frame" x="20" y="102.5" width="374" height="142.5"/>
+                                <rect key="frame" x="20" y="78.5" width="984" height="61"/>
                                 <string key="text">for likes we have my favorite foods being pizza, tacos, nachos favorite color Lime Green, Favorite books (i forgot the names) Favorite movie is same situation for dislikes its hard to say really i have my pet peeves but those arnt dislikes persay as with my own philosphy its hard for me to dislike really anything</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -51,17 +52,17 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="About_me" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stuff ive done" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mKl-D1-X9v">
-                                <rect key="frame" x="148" y="64" width="106" height="20.5"/>
+                                <rect key="frame" x="148" y="40" width="106" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ygP-Cg-jce">
-                                <rect key="frame" x="20" y="102" width="374" height="162.5"/>
+                                <rect key="frame" x="20" y="78" width="984" height="61"/>
                                 <string key="text">The sports ive done are pretty much any that you can name soccor, cup stacking, football, karate, basketball, esports etc beyond that Ive reached a point where I have consumed so much media that everything online starts to feel the same and it becomes rare to find something truely new or exciting. I have worked at mcdonalds, wendys, smiths, cornbellys, online ventures etc</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -89,18 +90,18 @@
             <objects>
                 <viewController id="Re3-mZ-SD8" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5hn-9f-H7f">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Family" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fzt-KP-pZC">
-                                <rect key="frame" x="179" y="64" width="48.5" height="21"/>
+                                <rect key="frame" x="179" y="40" width="48.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UAp-ku-TQb">
-                                <rect key="frame" x="20" y="102.5" width="374" height="325"/>
-                                <mutableString key="text">starting off I am adopted meaning that i have the adoptive parents (both alive) then I have the birth parents (both alive as well) with the adoptive family have one sister who is also adopted from an entirely diffrent family on the birth side I have half brothers and sisters for both parents and no biological siblings that I know of the only half brother that i know of meeting is jayden which is the birth fathers side along with that I have the grandma and grandpa for adoptive dad (both dead) and the gma and gpa for mom (both alive) the only one i havent met is the grandpa for my adoptive dad on the birth side im not sure whos who beyond the one half brother but i know i have met biological grandparents of one biological parent</mutableString>
+                                <rect key="frame" x="20" y="78.5" width="984" height="122"/>
+                                <string key="text">starting off I am adopted meaning that i have the adoptive parents (both alive) then I have the birth parents (both alive as well) with the adoptive family have one sister who is also adopted from an entirely diffrent family on the birth side I have half brothers and sisters for both parents and no biological siblings that I know of the only half brother that i know of meeting is jayden which is the birth fathers side along with that I have the grandma and grandpa for adoptive dad (both dead) and the gma and gpa for mom (both alive) the only one i havent met is the grandpa for my adoptive dad on the birth side im not sure whos who beyond the one half brother but i know i have met biological grandparents of one biological parent</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -128,6 +129,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="kMp-Ml-kU6" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="rBP-K7-2Uv">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -156,7 +158,7 @@
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemTealColor">
-            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
