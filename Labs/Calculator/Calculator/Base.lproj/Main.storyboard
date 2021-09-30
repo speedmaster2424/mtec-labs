@@ -194,7 +194,7 @@
                                                         <rect key="frame" x="0.0" y="405.33333333333331" width="390" height="100.33333333333331"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B6x-Uf-5kQ">
-                                                                <rect key="frame" x="0.0" y="0.0" width="133.66666666666666" height="100.33333333333333"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="194" height="100.33333333333333"/>
                                                                 <color key="backgroundColor" systemColor="systemGray4Color"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" title="0">
@@ -202,7 +202,7 @@
                                                                 </buttonConfiguration>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="77v-jw-Oah">
-                                                                <rect key="frame" x="134.66666666666666" y="0.0" width="114.66666666666666" height="100.33333333333333"/>
+                                                                <rect key="frame" x="195" y="0.0" width="97" height="100.33333333333333"/>
                                                                 <color key="backgroundColor" systemColor="systemGray4Color"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" title=".">
@@ -210,7 +210,7 @@
                                                                 </buttonConfiguration>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rWs-VK-fhh">
-                                                                <rect key="frame" x="250.33333333333337" y="0.0" width="139.66666666666663" height="100.33333333333333"/>
+                                                                <rect key="frame" x="293" y="0.0" width="97" height="100.33333333333333"/>
                                                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" title="=">
@@ -218,6 +218,10 @@
                                                                 </buttonConfiguration>
                                                             </button>
                                                         </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="77v-jw-Oah" firstAttribute="width" secondItem="rWs-VK-fhh" secondAttribute="width" id="pOl-KG-Pt3"/>
+                                                            <constraint firstItem="B6x-Uf-5kQ" firstAttribute="width" secondItem="77v-jw-Oah" secondAttribute="width" multiplier="2" id="uyI-Uu-WqN"/>
+                                                        </constraints>
                                                     </stackView>
                                                 </subviews>
                                             </stackView>
