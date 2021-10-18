@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var listOfWords = ["scooby dooby doo where are you", "six feet under", "cutie mark crusaders", "the dance of death", "supercalifragilisticexpialidocious", "crapaflapnasti", "release the kraken"]
+    var listOfWords = ["scooby dooby doo where are you", "madness", "six feet under", "cutie mark crusaders", "the dance of death", "supercalifragilisticexpialidocious", "the quick brown fox jumps over the lazy lane", "crapaflapnasti", "release the kraken", "excalibur", "for narnia", "gotta catch em all"]
     var incorrectMovesAllowed = 7
     var totalWins = 0{
         didSet {
