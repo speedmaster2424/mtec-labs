@@ -7,25 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8E2889FA271DAEE900CBD2CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2889F9271DAEE900CBD2CC /* AppDelegate.swift */; };
-		8E2889FC271DAEE900CBD2CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2889FB271DAEE900CBD2CC /* SceneDelegate.swift */; };
-		8E288A01271DAEE900CBD2CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E2889FF271DAEE900CBD2CC /* Main.storyboard */; };
-		8E288A03271DAEEA00CBD2CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E288A02271DAEEA00CBD2CC /* Assets.xcassets */; };
-		8E288A06271DAEEA00CBD2CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E288A04271DAEEA00CBD2CC /* LaunchScreen.storyboard */; };
+		8E019694271F1D95005F0CB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E019693271F1D95005F0CB3 /* AppDelegate.swift */; };
+		8E019696271F1D95005F0CB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E019695271F1D95005F0CB3 /* SceneDelegate.swift */; };
+		8E01969B271F1D95005F0CB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E019699271F1D95005F0CB3 /* Main.storyboard */; };
+		8E01969D271F1D96005F0CB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E01969C271F1D96005F0CB3 /* Assets.xcassets */; };
+		8E0196A0271F1D97005F0CB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E01969E271F1D96005F0CB3 /* LaunchScreen.storyboard */; };
+		8E0196A8271F1F04005F0CB3 /* scoreBoardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0196A7271F1F04005F0CB3 /* scoreBoardTableViewController.swift */; };
+		8E0196AA271F6B56005F0CB3 /* editMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0196A9271F6B56005F0CB3 /* editMenuViewController.swift */; };
+		8EED1590272057B000C641FE /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EED158F272057B000C641FE /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8E2889F6271DAEE900CBD2CC /* score keeping app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "score keeping app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E2889F9271DAEE900CBD2CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8E2889FB271DAEE900CBD2CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8E288A00271DAEE900CBD2CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8E288A02271DAEEA00CBD2CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8E288A05271DAEEA00CBD2CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8E288A07271DAEEA00CBD2CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E019690271F1D95005F0CB3 /* scoreBoardProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scoreBoardProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E019693271F1D95005F0CB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E019695271F1D95005F0CB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8E01969A271F1D95005F0CB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E01969C271F1D96005F0CB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E01969F271F1D96005F0CB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E0196A1271F1D97005F0CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E0196A7271F1F04005F0CB3 /* scoreBoardTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scoreBoardTableViewController.swift; sourceTree = "<group>"; };
+		8E0196A9271F6B56005F0CB3 /* editMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editMenuViewController.swift; sourceTree = "<group>"; };
+		8EED158F272057B000C641FE /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8E2889F3271DAEE900CBD2CC /* Frameworks */ = {
+		8E01968D271F1D95005F0CB3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,71 +41,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8E2889ED271DAEE900CBD2CC = {
+		8E019687271F1D95005F0CB3 = {
 			isa = PBXGroup;
 			children = (
-				8E2889F8271DAEE900CBD2CC /* score keeping app */,
-				8E2889F7271DAEE900CBD2CC /* Products */,
+				8E019692271F1D95005F0CB3 /* scoreBoardProject */,
+				8E019691271F1D95005F0CB3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8E2889F7271DAEE900CBD2CC /* Products */ = {
+		8E019691271F1D95005F0CB3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8E2889F6271DAEE900CBD2CC /* score keeping app.app */,
+				8E019690271F1D95005F0CB3 /* scoreBoardProject.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8E2889F8271DAEE900CBD2CC /* score keeping app */ = {
+		8E019692271F1D95005F0CB3 /* scoreBoardProject */ = {
 			isa = PBXGroup;
 			children = (
-				8E2889F9271DAEE900CBD2CC /* AppDelegate.swift */,
-				8E2889FB271DAEE900CBD2CC /* SceneDelegate.swift */,
-				8E2889FF271DAEE900CBD2CC /* Main.storyboard */,
-				8E288A02271DAEEA00CBD2CC /* Assets.xcassets */,
-				8E288A04271DAEEA00CBD2CC /* LaunchScreen.storyboard */,
-				8E288A07271DAEEA00CBD2CC /* Info.plist */,
+				8E019693271F1D95005F0CB3 /* AppDelegate.swift */,
+				8E019695271F1D95005F0CB3 /* SceneDelegate.swift */,
+				8EED158F272057B000C641FE /* File.swift */,
+				8E0196A7271F1F04005F0CB3 /* scoreBoardTableViewController.swift */,
+				8E0196A9271F6B56005F0CB3 /* editMenuViewController.swift */,
+				8E019699271F1D95005F0CB3 /* Main.storyboard */,
+				8E01969C271F1D96005F0CB3 /* Assets.xcassets */,
+				8E01969E271F1D96005F0CB3 /* LaunchScreen.storyboard */,
+				8E0196A1271F1D97005F0CB3 /* Info.plist */,
 			);
-			path = "score keeping app";
+			path = scoreBoardProject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8E2889F5271DAEE900CBD2CC /* score keeping app */ = {
+		8E01968F271F1D95005F0CB3 /* scoreBoardProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E288A0A271DAEEA00CBD2CC /* Build configuration list for PBXNativeTarget "score keeping app" */;
+			buildConfigurationList = 8E0196A4271F1D97005F0CB3 /* Build configuration list for PBXNativeTarget "scoreBoardProject" */;
 			buildPhases = (
-				8E2889F2271DAEE900CBD2CC /* Sources */,
-				8E2889F3271DAEE900CBD2CC /* Frameworks */,
-				8E2889F4271DAEE900CBD2CC /* Resources */,
+				8E01968C271F1D95005F0CB3 /* Sources */,
+				8E01968D271F1D95005F0CB3 /* Frameworks */,
+				8E01968E271F1D95005F0CB3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "score keeping app";
-			productName = "score keeping app";
-			productReference = 8E2889F6271DAEE900CBD2CC /* score keeping app.app */;
+			name = scoreBoardProject;
+			productName = scoreBoardProject;
+			productReference = 8E019690271F1D95005F0CB3 /* scoreBoardProject.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8E2889EE271DAEE900CBD2CC /* Project object */ = {
+		8E019688271F1D95005F0CB3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
-					8E2889F5271DAEE900CBD2CC = {
+					8E01968F271F1D95005F0CB3 = {
 						CreatedOnToolsVersion = 13.0;
 					};
 				};
 			};
-			buildConfigurationList = 8E2889F1271DAEE900CBD2CC /* Build configuration list for PBXProject "score keeping app" */;
+			buildConfigurationList = 8E01968B271F1D95005F0CB3 /* Build configuration list for PBXProject "scoreBoardProject" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,54 +116,57 @@
 				en,
 				Base,
 			);
-			mainGroup = 8E2889ED271DAEE900CBD2CC;
-			productRefGroup = 8E2889F7271DAEE900CBD2CC /* Products */;
+			mainGroup = 8E019687271F1D95005F0CB3;
+			productRefGroup = 8E019691271F1D95005F0CB3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8E2889F5271DAEE900CBD2CC /* score keeping app */,
+				8E01968F271F1D95005F0CB3 /* scoreBoardProject */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8E2889F4271DAEE900CBD2CC /* Resources */ = {
+		8E01968E271F1D95005F0CB3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E288A06271DAEEA00CBD2CC /* LaunchScreen.storyboard in Resources */,
-				8E288A03271DAEEA00CBD2CC /* Assets.xcassets in Resources */,
-				8E288A01271DAEE900CBD2CC /* Main.storyboard in Resources */,
+				8E0196A0271F1D97005F0CB3 /* LaunchScreen.storyboard in Resources */,
+				8E01969D271F1D96005F0CB3 /* Assets.xcassets in Resources */,
+				8E01969B271F1D95005F0CB3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8E2889F2271DAEE900CBD2CC /* Sources */ = {
+		8E01968C271F1D95005F0CB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E2889FA271DAEE900CBD2CC /* AppDelegate.swift in Sources */,
-				8E2889FC271DAEE900CBD2CC /* SceneDelegate.swift in Sources */,
+				8EED1590272057B000C641FE /* File.swift in Sources */,
+				8E0196A8271F1F04005F0CB3 /* scoreBoardTableViewController.swift in Sources */,
+				8E0196AA271F6B56005F0CB3 /* editMenuViewController.swift in Sources */,
+				8E019694271F1D95005F0CB3 /* AppDelegate.swift in Sources */,
+				8E019696271F1D95005F0CB3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8E2889FF271DAEE900CBD2CC /* Main.storyboard */ = {
+		8E019699271F1D95005F0CB3 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8E288A00271DAEE900CBD2CC /* Base */,
+				8E01969A271F1D95005F0CB3 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		8E288A04271DAEEA00CBD2CC /* LaunchScreen.storyboard */ = {
+		8E01969E271F1D96005F0CB3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8E288A05271DAEEA00CBD2CC /* Base */,
+				8E01969F271F1D96005F0CB3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +174,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		8E288A08271DAEEA00CBD2CC /* Debug */ = {
+		8E0196A2271F1D97005F0CB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,7 +235,7 @@
 			};
 			name = Debug;
 		};
-		8E288A09271DAEEA00CBD2CC /* Release */ = {
+		8E0196A3271F1D97005F0CB3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,7 +290,7 @@
 			};
 			name = Release;
 		};
-		8E288A0B271DAEEA00CBD2CC /* Debug */ = {
+		8E0196A5271F1D97005F0CB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -287,7 +299,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 363863NZ5H;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "score keeping app/Info.plist";
+				INFOPLIST_FILE = scoreBoardProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -298,7 +310,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.score-keeping-app";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.scoreBoardProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -306,7 +318,7 @@
 			};
 			name = Debug;
 		};
-		8E288A0C271DAEEA00CBD2CC /* Release */ = {
+		8E0196A6271F1D97005F0CB3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -315,7 +327,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 363863NZ5H;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "score keeping app/Info.plist";
+				INFOPLIST_FILE = scoreBoardProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -326,7 +338,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.score-keeping-app";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.scoreBoardProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -337,25 +349,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8E2889F1271DAEE900CBD2CC /* Build configuration list for PBXProject "score keeping app" */ = {
+		8E01968B271F1D95005F0CB3 /* Build configuration list for PBXProject "scoreBoardProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E288A08271DAEEA00CBD2CC /* Debug */,
-				8E288A09271DAEEA00CBD2CC /* Release */,
+				8E0196A2271F1D97005F0CB3 /* Debug */,
+				8E0196A3271F1D97005F0CB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E288A0A271DAEEA00CBD2CC /* Build configuration list for PBXNativeTarget "score keeping app" */ = {
+		8E0196A4271F1D97005F0CB3 /* Build configuration list for PBXNativeTarget "scoreBoardProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E288A0B271DAEEA00CBD2CC /* Debug */,
-				8E288A0C271DAEEA00CBD2CC /* Release */,
+				8E0196A5271F1D97005F0CB3 /* Debug */,
+				8E0196A6271F1D97005F0CB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8E2889EE271DAEE900CBD2CC /* Project object */;
+	rootObject = 8E019688271F1D95005F0CB3 /* Project object */;
 }

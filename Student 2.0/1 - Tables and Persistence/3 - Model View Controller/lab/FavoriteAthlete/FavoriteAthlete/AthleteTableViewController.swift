@@ -29,4 +29,23 @@ class AthleteTableViewController: UITableViewController {
         
         return cell
     }
+    
+    @IBSegueAction func addAthlete(_ coder: NSCoder, sender: Any?) -> AthleteViewController? {
+        return AthleteViewController(coder: coder, athlete: nil)
+    }
+    
+    @IBSegueAction func editAthlete(_ coder: NSCoder, sender: Any?) -> AthleteViewController? {
+        let athleteToEdit: Athlete?
+        if let cell = sender as? UITableViewCell,
+           let indexPath = tableView.indexPath(for: cell) {
+            athleteToEdit = athletes[indexPath.row]
+        } else {
+            athleteToEdit = nil
+        }
+        return AthleteViewController(coder: coder, athlete: athleteToEdit)
+    }
+    
+    
+    
+    
 }

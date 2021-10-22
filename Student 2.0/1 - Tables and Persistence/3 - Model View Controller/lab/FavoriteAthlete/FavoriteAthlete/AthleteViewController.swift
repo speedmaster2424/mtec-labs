@@ -15,6 +15,10 @@ class AthleteViewController: UIViewController {
     @IBOutlet var teamTextField: UITextField!
     
     
+    struct Property {
+        static let unwindToListSegue = "unwindToAthleteTableViewController"
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         updateView()
@@ -23,9 +27,9 @@ class AthleteViewController: UIViewController {
     var athlete: Athlete?
     
     init?(coder: NSCoder, athlete: Athlete?) {
-            self.athlete = athlete
-            super.init(coder: coder)
-        }
+        self.athlete = athlete
+        super.init(coder: coder)
+    }
         
         required init?(coder: NSCoder) {
             fatalError("init(coder:) has not been implemented")
@@ -35,6 +39,11 @@ class AthleteViewController: UIViewController {
         guard let athlete = athlete else {
             return
         }
+        
+        nameTextField.text = athlete.name
+        ageTextField.text = String(athlete.age)
+        leagueTextField.text = String(athlete.league)
+        teamTextField.text = athlete.team
     }
     
     @IBAction func saveButton(_ sender: Any) {
@@ -42,17 +51,14 @@ class AthleteViewController: UIViewController {
             let ageString = ageTextField.text,
             let age = Int(ageString),
             let league = leagueTextField.text,
-                   let team = teamTextField.text else {return}
+            let team = teamTextField.text else {return}
+        
+        athlete = Athlete(name: name, age: age, league: league, team: team)
+        
+        performSegue(withIdentifier: Property.unwindToListSegue, sender: self)
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-     }
-    */
+    
+    
 
 }

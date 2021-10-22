@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  score keeping app
+//  scoreBoardProject
 //
-//  Created by speed Master on 10/18/21.
+//  Created by speed Master on 10/19/21.
 //
 
 import UIKit
